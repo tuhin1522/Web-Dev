@@ -1,0 +1,19 @@
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+caption, tfoot{
+    border: 1px solid #000;
+}
+hr{
+    color:  #bdc3c7;
+}
