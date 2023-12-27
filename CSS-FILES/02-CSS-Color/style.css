@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: #000000;
     color: #0000ff;
     color: #00ff00;
@@ -8,4 +8,22 @@ h1{
     color: rgb(0, 255, 0);
     color: rgba(0, 255, 0, 0.4);
     color: rgba(0, 255, 255, 0.9);
+} */
+
+body{
+    background: url(waterman.png);
+    background-attachment: fixed;
+}
+
+div{
+    background-color: rgba(240,128, 128, 0.7) ;
+    background-image: url(goalman.png);
+    background-size: 150px 150px;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-position: center 25px;
+
+    /* Shorthand */
+    background: #f78fb3 url(goalman.png) no-repeat center;
 }
