@@ -1,0 +1,42 @@
+/* * {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+} */
+
+
+body {
+    font-size: 22px;
+}
+
+main {
+    font-family: monospace;
+}
+/* p {
+    color: purple!important;
+} */
+
+p {
+    color: red;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
+}
+
+h1, h3 {
+    color: blue;
+}
+
+/* p span {
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
