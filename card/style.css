@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  width: 100%;
+  margin: 20px;
+}
+
+.card {
+  width: 500px;
+  height: 200px;
+  align-content: center;
+  margin: 40px;
+  background-color: rgba(127, 255, 212, 0.638);
+  display: flex;
+  flex-direction: row;
+  box-shadow: 4px 4px rgba(0, 255, 221, 0.229);
+  justify-content: space-around;
+}
+
+.profile {
+  width: 200px;
+  height: 160px;
+  margin: 20px 20px auto; 
+}
+
+.details {
+  padding: 20px;
+  margin: 10px;
+  line-height: 4vh;
+  text-align: center;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.border-aqua {
+  border: 1px dotted aqua;
+}

@@ -1,0 +1,19 @@
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: purple;
+}
+
+li:first-child {
+  color: aqua;
+}
+
+li:last-child {
+  color: blueviolet;
+}
+
+li:nth-child(2n+1) {
+  color: blue;
+}
