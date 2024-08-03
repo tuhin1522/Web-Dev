@@ -1,0 +1,30 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+h1 {
+  color: var(--white);
+}
+
+.lorem {
+  background-color: black;
+  color: var(--blue);
+  padding: 15px;
+}
+
+h4 {
+  border-bottom: 2px solid var(--blue);
+}
+
+button {
+  --button-blue: #0000ff;
+  background-color: black;
+  color: var(--button-blue);
+  border: 1px solid var(--button-blue);
+}
+

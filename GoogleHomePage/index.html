@@ -4,39 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google Home Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="nav-bar">
-    <header>
-      <nav>
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-
-      </nav>
-    </header>
-  </div>
-  <div class="main-section">
-    <main>
-      <div class="google">
-        <p class="g">G</p>
-        <p class="e">o</p>
-        <p class="o">o</p>
-        <p class="g">g</p>
-        <p class="l">l</p>
-        <p class="e">e</p>
-      </div>
+  <header class="nav-bar">
+    <nav>
+      <a href="image.html">Google Images</a>
+      <a href="advanced.html">Google Advanced Search</a>
+    </nav>
+  </header>
+  <main class="main-section">
+    <div class="google">
+      <span class="g">G</span><span class="o">o</span><span class="o">o</span>
+      <span class="g">g</span><span class="l">l</span><span class="e">e</span>
+    </div>
+    <form action="https://www.google.com/search" method="get">
       <div class="main-search">
-        <input type="search" class="search">
+        <div class="search-field">
+          <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#808080" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5" /><path d="m17.571 17.5-5.571-5.5" /></g></svg>
+          <input type="text" name="q" placeholder="Search Google">
+        </div>
       </div>
-      
-      <div class="botom-button">
-        <a href="#" class="search-button">Google Search</a>
-        <a href="#" class="lucky-button">I'm Feeling Lucky</a>
+      <div class="search-buttons">
+        <input type="submit" value="Google Search" class="search-button">
+        <input type="submit" value="I'm Feeling Lucky" class="search-button">
       </div>
-      
-    </main>
-  </div>
-  
+    </form>
+  </main>
 </body>
 </html>

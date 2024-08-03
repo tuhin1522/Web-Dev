@@ -6,41 +6,41 @@
 
 body {
   margin-top: 20px;
+  background-color: #202124;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
 .nav-bar {
   text-align: right;
+  padding: 10px;
 }
 
 a {
   text-decoration: none;
-  color: black;
-  font-size: 20px;
-  padding: 10px;
-}
-a:hover {
-  color: blue;
-  text-decoration: underline;
+  color: white;
+  font-size: 18px;
+  padding: 6px;
 }
 
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
 
 .main-section {
   text-align: center;
   margin-top: 10%;
 }
 
-
-.google>p {
+.google span {
   font-size: 100px;
-  word-spacing: 0%;
-  display: inline;
 }
+
 .g {
   color: blue;
 }
-.e {
-  color: red;
-}
+
 .o {
   color: yellow;
 }
@@ -49,26 +49,62 @@ a:hover {
   color: green;
 }
 
-
-.search {
-  width: 40%;
-  height: 44px;
-  margin: 0 auto 29px;
-  border: 1px solid #dfe1e5;
-  border-radius: 24px;
-  display: block;
-  padding-left: 20px;
-  font-size: 16px;
+.e {
+  color: red;
 }
 
-.botom-button {
-  color: black;
-  border: none;
-  background: white; 
-  font-weight: 500;
-  font-family: sans-serif;
+.main-search {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  margin-top: 20px;
+}
+
+.search-field {
+  width: 60%;
+  height: 44px;
+  background-color: #202124;
+  display: flex;
   align-items: center;
+  border-radius: 25px;
+  border: 1px solid #afafaf;
+  padding-left: 15px;
+}
+
+.search-field input {
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  background-color: #202124;
+  color: white;
+  padding-left: 10px;
+}
+
+.search-field input:focus {
+  outline: none;
+}
+
+.search-field:hover, .search-field:focus-within {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.search-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-button {
+  color: white;
+  width: 150px;
+  background-color: #5c5a5a47;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  border: 1px solid #ffffff3c;
 }
